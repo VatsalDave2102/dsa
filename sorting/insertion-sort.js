@@ -1,3 +1,14 @@
+/**
+ * Insertion Sort - Builds sorted array one element at a time
+ * Time Complexity: O(n²) - Best: O(n), Average/Worst: O(n²)
+ * Space Complexity: O(1)
+ * Algorithm:
+ * 1. Start with second element
+ * 2. Compare with previous elements
+ * 3. Insert at correct position by shifting
+ * @param {number[]} arr - Array to sort (default: empty array)
+ * @returns {number[]} Sorted array
+ */
 function insertionSort(arr = []) {
   if (!arr.length) return [];
 

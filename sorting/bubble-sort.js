@@ -1,3 +1,14 @@
+/**
+ * Bubble Sort - Simple comparison-based sorting algorithm
+ * Time Complexity: O(n²) - Best: O(n), Average/Worst: O(n²)
+ * Space Complexity: O(1)
+ * Algorithm:
+ * 1. Compare adjacent elements
+ * 2. Swap if they are in wrong order
+ * 3. Repeat until no swaps needed
+ * @param {number[]} arr - Array to sort (default: empty array)
+ * @returns {number[]} Sorted array
+ */
 function bubbleSort(arr = []) {
   if (!arr.length) {
     return [];
